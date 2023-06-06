@@ -12,7 +12,7 @@ def decorator_function(original_function):
 
 @decorator_function
 def display_info(name, age):
-    print('display_info ran with arguments ({}, {})'.format(name, age))
+    print(f'display_info ran with arguments ({name}, {age})')
 
 
 display_info('John', 25)

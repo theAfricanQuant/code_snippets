@@ -13,7 +13,7 @@ lang_responses = data['LanguagesWorkedWith']
 language_counter = Counter()
 
 for response in lang_responses:
-    language_counter.update(response.split(';'))
+    language_counter |= response.split(';')
 
 languages = []
 popularity = []

@@ -12,15 +12,15 @@ class Employee:
         self.first = first
         self.last = last
 
-        logging.info('Created Employee: {} - {}'.format(self.fullname, self.email))
+        logging.info(f'Created Employee: {self.fullname} - {self.email}')
 
     @property
     def email(self):
-        return '{}.{}@email.com'.format(self.first, self.last)
+        return f'{self.first}.{self.last}@email.com'
 
     @property
     def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+        return f'{self.first} {self.last}'
 
 
 emp_1 = Employee('John', 'Smith')

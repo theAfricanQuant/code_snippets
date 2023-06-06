@@ -17,9 +17,6 @@ def days_in_month(year, month):
     if not 1 <= month <= 12:
         return 'Invalid Month'
 
-    if month == 2 and is_leap(year):
-        return 29
-
-    return month_days[month]
+    return 29 if month == 2 and is_leap(year) else month_days[month]
 
 print(days_in_month(2017, 2))

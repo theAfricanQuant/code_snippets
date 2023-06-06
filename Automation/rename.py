@@ -38,9 +38,9 @@ for f in os.listdir():
     # print('{}-{}-{}{}'.format(f_number, f_course, f_title, file_ext))
 
     # You have the power to reformat in any way you see fit
-    print('{}-{}{}'.format(f_number, f_title.strip(), file_ext.strip()))
+    print(f'{f_number}-{f_title.strip()}{file_ext.strip()}')
 
-    new_name = '{}-{}{}'.format(file_num, file_title, file_ext)
+    new_name = f'{file_num}-{file_title}{file_ext}'
 
     os.rename(fn, new_name)
 

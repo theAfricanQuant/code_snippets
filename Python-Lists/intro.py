@@ -1,7 +1,7 @@
 
 # Empty Lists
 empty_list = []
-empty_list = list()
+empty_list = []
 
 # Empty Tuples
 empty_tuple = ()

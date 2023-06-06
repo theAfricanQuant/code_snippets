@@ -35,6 +35,6 @@ import time
 @my_timer
 def display_info(name, age):
     time.sleep(1)
-    print('display_info ran with arguments ({}, {})'.format(name, age))
+    print(f'display_info ran with arguments ({name}, {age})')
 
 display_info('Tom', 22)

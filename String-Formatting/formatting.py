@@ -53,7 +53,7 @@ print(sentence)
 # print(sentence)
 
 
-sentence = '1 MB is equal to {} bytes'.format(1000**2)
+sentence = f'1 MB is equal to {1000**2} bytes'
 
 print(sentence)
 

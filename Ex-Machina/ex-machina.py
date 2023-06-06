@@ -14,9 +14,9 @@ def prime(n,x):
     i = 1
     j = 1
     while j <= n:
-            if x[i] == 1:
-                    j = j + 1
-            i = i + 1
+        if x[i] == 1:
+            j += 1
+        i = i + 1
     return i - 1
 x=sieve(10000)
 code = [1206,301,384,5]

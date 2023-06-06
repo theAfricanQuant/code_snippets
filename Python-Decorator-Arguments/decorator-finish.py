@@ -14,7 +14,7 @@ def prefix_decorator(prefix):
 
 @prefix_decorator('LOG:')
 def display_info(name, age):
-    print('display_info ran with arguments ({}, {})'.format(name, age))
+    print(f'display_info ran with arguments ({name}, {age})')
 
 
 display_info('John', 25)
